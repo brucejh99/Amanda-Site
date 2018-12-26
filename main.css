@@ -5,7 +5,7 @@ body, html {
     max-height: 100%;
 }
 
-div.background1 {
+.background1 {
     height: 100vh;
     background-image: url(assets/background1.png);
     background-attachment: fixed;
@@ -17,16 +17,18 @@ div.background1 {
 
 .navbar {
     background-color: white;
-    height: 5vh;
-    line-height: 5vh;
-    position: fixed;
+    height: auto;
     width: 100vw;
+    max-width: 100%;
+    line-height: 5vh;
     justify-content: space-around;
     display: flex;
+    top: 0;
+    position: sticky;
     z-index: 1;
 }
 
-.navtext {
+.navbar a {
     text-align: center;
     font-family: 'Puritan', sans-serif;
     text-decoration: none;
@@ -34,6 +36,38 @@ div.background1 {
     font-size: 1.5em;
     height: auto;
     width: auto;
+}
+
+.blob {
+    position: absolute;
+    width: 50vw;
+    height: 150vh;
+    left: -1vw;
+    top: 5vh;
+    z-index: 0;
+}
+
+.blob2 {
+    position: absolute;
+    width: 17vw;
+    height: 20vh;
+    right: 0;
+    top: -5vh;
+    z-index: 2;
+}
+
+.blob3 {
+    position: absolute;
+    width: 40vw;
+    height: 160vh;
+    right: 0;
+    top: 120vh;
+    z-index: 0;
+}
+
+.about {
+    height: 300vh;
+    width: 100%;
 }
 
 .active-pink {
