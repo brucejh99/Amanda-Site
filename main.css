@@ -6,7 +6,7 @@ body, html {
 }
 
 .background1 {
-    height: 100vh;
+    height: 95vh;
     background-image: url(assets/background1.png);
     background-attachment: fixed;
     background-position: bottom;

@@ -20,7 +20,7 @@ $(document).ready(function(){
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
-        scrollTop: $(hash).offset().top - (0.1 * vh)
+        scrollTop: $(hash).offset().top - 0.05 * vh
       }, 1000, function(){
 
         // Add hash (#) to URL when done scrolling (default click behavior) - breaks when added
@@ -40,7 +40,7 @@ $(document).ready(function() {
     var page4Top = $("#work").offset().top;
     var page5Top = $("#end").offset().top;
 
-    if (scrollPos >= page1Top - 0.11 * vh && scrollPos < page2Top - 0.11 * vh) {
+    if (scrollPos >= page1Top - 0.51 * vh && scrollPos < page2Top - 0.51 * vh) {
       $("#home-button").addClass("active-pink");
       $("#about-button").removeClass("active-blue");
       $("#project-button").removeClass("active-yellow");
@@ -51,7 +51,7 @@ $(document).ready(function() {
         pink = false;
     }
 
-    if (scrollPos >= page2Top - 0.11 * vh && scrollPos < page3Top - 0.11 * vh) {
+    if (scrollPos >= page2Top - 0.51 * vh && scrollPos < page3Top - 0.51 * vh) {
       $("#about-button").addClass("active-blue");
       $("#home-button").removeClass("active-pink");
       $("#project-button").removeClass("active-yellow");
@@ -62,7 +62,7 @@ $(document).ready(function() {
         blue = false;
     }
     
-    if (scrollPos >= page3Top - 0.11 * vh && scrollPos < page4Top - 0.11 * vh) {
+    if (scrollPos >= page3Top - 0.51 * vh && scrollPos < page4Top - 0.51 * vh) {
       $("#project-button").addClass("active-yellow");
       $("#home-button").removeClass("active-pink");
       $("#about-button").removeClass("active-blue");
