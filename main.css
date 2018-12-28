@@ -15,6 +15,28 @@ body, html {
     position: relative;
 }
 
+.hello {
+    position: absolute;
+    font-family: 'Puritan', sans-serif;
+    color: white;
+    top: 5vh;
+    width: 60vw;
+    max-width: 60%;
+    font-size: 7em;
+    margin-left: 20vw;
+    z-index: 3;
+}
+
+.welcome {
+    position: absolute;
+    font-family: 'Puritan', sans-serif;
+    color: white;
+    bottom: 5vh;
+    left: 55vw;
+    font-size: 1.5em;
+    z-index: 3;
+}
+
 .navbar {
     background-color: white;
     height: auto;
