@@ -55,7 +55,7 @@ body, html {
     font-family: 'Puritan', sans-serif;
     text-decoration: none;
     color: black;
-    font-size: 1.5em;
+    font-size: 2vh;
     height: auto;
     width: auto;
 }
@@ -89,21 +89,31 @@ body, html {
 
 .about {
     height: 300vh;
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
+    background-image: linear-gradient(rgb(246, 153, 136) 40%, rgb(247, 150, 150) 80%, white);
 }
 
-.active-pink {
-    background: #EC576B;
+.profile {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.active-blue {
-    background: #4EC5C1;
+.profile-pic {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 12.5vh;
 }
 
-.active-yellow {
-    background: #41e287;
-}
-
-.active-orange {
-    background: #f3c394;
+.description {
+    width: 40vw;
+    max-width: 40%;
+    font-size: 3vh;
+    font-family: 'Puritan', sans-serif;
+    color: white;
+    margin: 10%;
 }
