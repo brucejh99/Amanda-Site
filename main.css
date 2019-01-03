@@ -88,14 +88,14 @@ body, html {
 }
 
 .about {
-    height: 300vh;
+    height: auto;
     width: 100vw;
     max-width: 100%;
     background-image: linear-gradient(rgb(246, 153, 136) 40%, rgb(247, 150, 150) 80%, white);
 }
 
 .profile {
-    height: 100vh;
+    height: 65vh;
     width: 100vw;
     max-width: 100%;
     display: flex;
@@ -104,9 +104,9 @@ body, html {
 }
 
 .profile-pic {
-    height: 25vh;
-    width: 25vh;
-    border-radius: 12.5vh;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 15vh;
 }
 
 .description {
